@@ -5,10 +5,12 @@ This project demonstrates a complete Node.js CI/CD pipeline for testing, buildin
 ## 🚀 Features
 
 - **Vite** - Fast build tool and development server
-- **Vitest** - Unit testing framework with coverage
+- **Jest** - Unit testing framework with coverage reporting
 - **ESLint** - Code linting and formatting
 - **GitHub Actions** - Automated CI/CD pipeline
 - **Production-ready** - Build and deployment scripts
+- **Multi-Node Support** - Tests on Node.js 18.x, 20.x, 22.x
+- **15 Comprehensive Tests** - Math, utils, and async operations
 
 ## 📦 Getting Started
 
