@@ -2,14 +2,13 @@
   "name": "pipelines",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "test:watch": "npm run test -- --watch",
-    "test:coverage": "npm run test -- --coverage",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "lint": "echo 'Linting disabled for Node 16 compatibility'",
     "lint:fix": "echo 'Linting disabled for Node 16 compatibility'"
   },
